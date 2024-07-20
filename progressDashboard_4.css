@@ -1,0 +1,167 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F8FD;
+}
+
+.dashboard-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px; /* Add margin-top to create space between the title and white area */
+}
+
+
+/* Dashboard specific styles */
+.kpi-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; /* Add space between the dashboard items */
+}
+
+.kpi-item {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 20px; /* Increase padding for more space inside each item */
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.icon {
+    width: 30px; /* Decrease icon size */
+    height: 30px; /* Decrease icon size */
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.Verify1 {
+    background-image: url('path-to-verify1-icon.png');
+}
+
+.Contract1 {
+    background-image: url('path-to-contract1-icon.png');
+}
+
+.Clock11 {
+    background-image: url('path-to-clock11-icon.png');
+}
+
+.Checklist1 {
+    background-image: url('path-to-checklist1-icon.png');
+}
+
+.Warning1 {
+    background-image: url('path-to-warning1-icon.png');
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 12px; /* Decrease title font size */
+    color: #333;
+    text-align: left;
+}
+
+.number {
+    font-size: 16px; /* Decrease number font size */
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+}
+
+/* New styles similar to the provided example */
+
+.box-content .big {
+    display: block;
+    font-size: 0.7em; /* Adjust font size as needed */
+    line-height: 150%;
+    color: #333; /* Replace with your desired color */
+}
+
+.active {
+    svg circle,
+    svg path {
+        fill: blue; /* Replace with your desired color */
+    }
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; /* Add space between the dashboard items */
+}
+
+.dashboard-item {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 20px; /* Increase padding for more space inside each item */
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.table-container {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+caption {
+    font-weight: bold;
+    text-align: left; /* Align caption text to the left */
+    padding: 10px; /* Optional: Add padding to the caption */
+    background-color: white; /* Optional: Set a background color */
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+th {
+    background-color: #F7F8FD ; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.scroll-pane {
+    width: 400px;
+    height: 200px;
+    overflow-y: scroll;
+    margin: 20px auto;
+}
+
+/* Added custom scrollbar styles */
+.scroll-pane::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-pane::-webkit-scrollbar-thumb {
+    
+    background-color: #6169F3;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.scroll-pane::-webkit-scrollbar-track {
+    background-color: #6168f329;
+    border-radius: 4px;
+}
